@@ -1,0 +1,56 @@
+/* celkove styly */
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Nav styly */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.lava-strana {
+    display: flex;
+}
+
+.nav-wrapper > .lava-strana > div {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+    font-size: 1em;
+    text-transform:uppercase
+}
+
+.nav-wrapper > .prava-strana > div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: #bdbdbd;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {  
+    color: #bdbdbd;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid yellowgreen;
+}
+
+.nav-link-wrapper a:hover {
+    color: yellowgreen;
+}
+
+
+
