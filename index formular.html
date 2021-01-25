@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formular</title>
+    </head>
+    <body style="background-color: silver;">
+
+        <div class="nav-bar">
+            <a href="index.html">Hlavná stránka</a>
+
+            <a href="index animacia.html">Animácia</a>
+
+            <a href="index formular.html">Formulár</a>
+
+        </div>
+
+            <h1>
+                Formulár 
+            </h1>
+
+            <h3>Prosíme Vás o vyplnenie údajov.</h3>
+
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        Meno :
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Meno" name="">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        Heslo :
+                    </td>
+                    <td>
+                        <input type="password" placeholder="Heslo" name="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Vek :
+                    </td>
+                    <td>
+                        <input type="range" id="send" min="0" max="99" oninput="result.value=send.value">
+                        <br>
+                        <input type="text" id="result" value="10"
+
+                    </td>
+                </tr>
+                
+               
+                <tr>
+                    <td>
+                        Pohlavie :
+                    </td>
+                    <td>
+                        <input type="radio" placeholder="Heslo" name="Pohlavie">Muž
+                        <input type="radio" placeholder="Heslo" name="Pohlavie">Žena
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        Email :
+                    </td>
+                    <td>
+                        <input type="mail" placeholder="Email" name="">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        Tel.č :
+                    </td>
+                    <td>
+                        <input type="phone" placeholder="09********" name="">
+                    </td>
+                </tr>
+
+                
+                <tr>
+                    <td>
+                        <input type="submit"  name="">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+
+
+
+</html>
